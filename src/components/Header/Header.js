@@ -1,11 +1,12 @@
 import classes from "./Header.module.css";
 import booksImage from "../../assets/booksImage.jpeg";
+import HeaderCartButton from "./HeaderCartButton";
 const Header = (props) => {
   return (
     <>
       <header className={classes.header}>
         <h1>ReactBooks</h1>
-        <button>Cart</button>
+        <HeaderCartButton />
       </header>
       <div className={classes["main-image"]}>
         <img src={booksImage} alt="Lots of books!" />
