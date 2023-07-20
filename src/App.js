@@ -1,11 +1,14 @@
 import "./App.css";
 import Header from "./components/Header/Header";
-import HeaderCartButton from "./components/Header/HeaderCartButton";
+import Books from "./components/books/Books";
 
 function App() {
   return (
     <>
       <Header />
+      <main>
+        <Books />
+      </main>
     </>
   );
 }
