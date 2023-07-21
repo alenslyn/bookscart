@@ -1,4 +1,6 @@
 import classes from "./AvailableBooks.module.css";
+import Card from "./Card";
+import BooksItem from "./BooksItem";
 
 const DUMMY_BOOKS = [
   {
@@ -28,10 +30,19 @@ const DUMMY_BOOKS = [
 ];
 
 const AvailableBooks = () => {
-  const booksList = DUMMY_BOOKS.map((book) => <li>{book.name}</li>);
+  const booksList = DUMMY_BOOKS.map((book) => (
+    <BooksItem
+      key={book.id}
+      name={book.name}
+      description={book.description}
+      price={book.price}
+    />
+  ));
   return (
     <section className={classes.books}>
-      <ul>{booksList}</ul>
+      <Card>
+        <ul>{booksList}</ul>
+      </Card>
     </section>
   );
 };
