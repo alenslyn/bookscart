@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/bookscart/static/css/main.39c082d1.css",
+    "main.js": "/bookscart/static/js/main.7e73880e.js",
+    "static/js/787.1296e134.chunk.js": "/bookscart/static/js/787.1296e134.chunk.js",
+    "static/media/booksImage.jpeg": "/bookscart/static/media/booksImage.2d4eeb9ae9757d9456d1.jpeg",
+    "index.html": "/bookscart/index.html",
+    "main.39c082d1.css.map": "/bookscart/static/css/main.39c082d1.css.map",
+    "main.7e73880e.js.map": "/bookscart/static/js/main.7e73880e.js.map",
+    "787.1296e134.chunk.js.map": "/bookscart/static/js/787.1296e134.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.39c082d1.css",
+    "static/js/main.7e73880e.js"
+  ]
+}
