@@ -1,5 +1,5 @@
 import classes from "./AvailableBooks.module.css";
-import Card from "./Card";
+import Card from "./components/Card";
 import BooksItem from "./BooksItem";
 
 const DUMMY_BOOKS = [

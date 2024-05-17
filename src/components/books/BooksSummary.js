@@ -4,8 +4,8 @@ const BooksSummary = () => {
   return (
     <section className={classes.summary}>
       <h2>Books delivered to you</h2>
-      <p>Choose your favorite books from our broad selection.</p>
-      <p>We selected books that are worth your time!</p>
+      <p>Pick your favorite books from our wide selection. </p>
+      <p>We've picked out books that are really worth your time!</p>
     </section>
   );
 };

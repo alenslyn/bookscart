@@ -1,5 +1,5 @@
 import classes from "./BooksItemForm.module.css";
-import Input from "./Input";
+import Input from "./components/Input";
 import { useRef, useState } from "react";
 
 const BooksItemForm = (props) => {
