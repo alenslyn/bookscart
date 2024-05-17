@@ -1,8 +1,7 @@
 import { useState } from "react";
-import "./App.css";
-import Header from "./components/Header/Header";
+import Header from "./components/header/Header";
 import Books from "./components/books/Books";
-import Cart from "./components/books/Cart";
+import Cart from "./components/cart/Cart";
 import CartProvider from "./store/CartProvider";
 
 function App() {
